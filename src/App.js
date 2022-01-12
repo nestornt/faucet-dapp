@@ -105,7 +105,7 @@ function App() {
   return (
     <>
       <div className="faucet-wrapper">
-        <div className="faucet">
+        <div className="faucet card">
           { web3Api.isProviderLoaded ?
             <div className="is-flex is-align-items-center">
               <span>
